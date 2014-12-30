@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWidget</class>
+ <widget class="QWidget" name="MainWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>720</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>720</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWidget</string>
+  </property>
+  <widget class="SceneWidget" name="scene" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>700</width>
+     <height>480</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="ParamsTabWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>500</y>
+     <width>541</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="ParamsTab">
+    <attribute name="title">
+     <string>Параметры</string>
+    </attribute>
+    <widget class="QWidget" name="formLayoutWidget_10">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>81</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <layout class="QFormLayout" name="formLayout_1">
+      <property name="fieldGrowthPolicy">
+       <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+      </property>
+      <item row="0" column="0">
+       <widget class="QLabel" name="LLabel">
+        <property name="text">
+         <string>L:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="HLabel">
+        <property name="text">
+         <string>H:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="DynamicSpinBox" name="LEdit"/>
+      </item>
+      <item row="1" column="1">
+       <widget class="DynamicSpinBox" name="HEdit"/>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="formLayoutWidget_11">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>30</y>
+       <width>81</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <layout class="QFormLayout" name="formLayout_2">
+      <property name="fieldGrowthPolicy">
+       <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+      </property>
+      <item row="0" column="0">
+       <widget class="QLabel" name="R1Label">
+        <property name="text">
+         <string>R1:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="R2Label">
+        <property name="text">
+         <string>R2:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="DynamicSpinBox" name="R1Edit"/>
+      </item>
+      <item row="1" column="1">
+       <widget class="DynamicSpinBox" name="R2Edit"/>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="formLayoutWidget_12">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>30</y>
+       <width>71</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <layout class="QFormLayout" name="formLayout_4">
+      <property name="fieldGrowthPolicy">
+       <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+      </property>
+      <item row="1" column="0">
+       <widget class="QLabel" name="dLabel">
+        <property name="text">
+         <string>d:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="DLabel">
+        <property name="text">
+         <string>D:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="DynamicSpinBox" name="DEdit"/>
+      </item>
+      <item row="1" column="1">
+       <widget class="DynamicSpinBox" name="dEdit"/>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="formLayoutWidget_13">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>30</y>
+       <width>81</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <layout class="QFormLayout" name="formLayout_3">
+      <property name="fieldGrowthPolicy">
+       <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+      </property>
+      <item row="0" column="0">
+       <widget class="QLabel" name="R3Label">
+        <property name="text">
+         <string>R3:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="rLabel">
+        <property name="text">
+         <string>r:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="DynamicSpinBox" name="R3Edit"/>
+      </item>
+      <item row="1" column="1">
+       <widget class="DynamicSpinBox" name="rEdit"/>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="formLayoutWidget_14">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>30</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <layout class="QFormLayout" name="formLayout_5">
+      <property name="fieldGrowthPolicy">
+       <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+      </property>
+      <item row="0" column="0">
+       <widget class="QLabel" name="GridStepLabel">
+        <property name="text">
+         <string>Шаг сетки:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QSpinBox" name="GridStepEdit">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="minimum">
+         <number>10</number>
+        </property>
+        <property name="maximum">
+         <number>50</number>
+        </property>
+        <property name="singleStep">
+         <number>5</number>
+        </property>
+        <property name="value">
+         <number>20</number>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="2">
+       <widget class="QCheckBox" name="ShowPointsCheckBox">
+        <property name="text">
+         <string>показывать точки</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>361</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Параметры детали</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>-1</y>
+       <width>141</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Свойства</string>
+     </property>
+    </widget>
+    <zorder>groupBox_2</zorder>
+    <zorder>groupBox_1</zorder>
+    <zorder>formLayoutWidget_10</zorder>
+    <zorder>formLayoutWidget_11</zorder>
+    <zorder>formLayoutWidget_12</zorder>
+    <zorder>formLayoutWidget_13</zorder>
+    <zorder>formLayoutWidget_14</zorder>
+   </widget>
+   <widget class="QWidget" name="TransformsTab">
+    <attribute name="title">
+     <string>Преобразования</string>
+    </attribute>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>0</y>
+       <width>111</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Текущее</string>
+     </property>
+     <widget class="QRadioButton" name="Translation">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>91</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>перемещение</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="AffineTr">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>82</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>аффинные</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Rotation">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>82</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>вращение</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>0</y>
+       <width>101</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Сдвиг и поворот</string>
+     </property>
+     <widget class="QWidget" name="formLayoutWidget_15">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>81</width>
+        <height>74</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout_6">
+       <property name="fieldGrowthPolicy">
+        <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+       </property>
+       <item row="0" column="0">
+        <widget class="QLabel" name="CenterXLabel">
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="text">
+          <string>X0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="CenterYLabel">
+         <property name="text">
+          <string>Y0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="AngleLabel">
+         <property name="text">
+          <string>угол</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QSpinBox" name="CenterXEdit">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="minimum">
+          <number>-30</number>
+         </property>
+         <property name="maximum">
+          <number>30</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QSpinBox" name="CenterYEdit">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="minimum">
+          <number>-20</number>
+         </property>
+         <property name="maximum">
+          <number>20</number>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QSpinBox" name="AngleEdit">
+         <property name="minimum">
+          <number>-360</number>
+         </property>
+         <property name="maximum">
+          <number>360</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_5">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>224</x>
+       <y>0</y>
+       <width>191</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>-</string>
+     </property>
+     <widget class="QWidget" name="formLayoutWidget_16">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>81</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout_7">
+       <property name="fieldGrowthPolicy">
+        <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+       </property>
+       <item row="0" column="0">
+        <widget class="QLabel" name="XxLabel">
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="text">
+          <string>Xx</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QSpinBox" name="XxEdit">
+         <property name="minimum">
+          <number>-15</number>
+         </property>
+         <property name="maximum">
+          <number>15</number>
+         </property>
+         <property name="value">
+          <number>1</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="XyLabel">
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="text">
+          <string>Xy</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QSpinBox" name="XyEdit">
+         <property name="minimum">
+          <number>-15</number>
+         </property>
+         <property name="maximum">
+          <number>15</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="formLayoutWidget_17">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>30</y>
+        <width>81</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout_8">
+       <property name="fieldGrowthPolicy">
+        <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+       </property>
+       <item row="0" column="1">
+        <widget class="QSpinBox" name="YxEdit">
+         <property name="minimum">
+          <number>-15</number>
+         </property>
+         <property name="maximum">
+          <number>15</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="YyLabel_2">
+         <property name="text">
+          <string>Yy</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QSpinBox" name="YyEdit">
+         <property name="minimum">
+          <number>-15</number>
+         </property>
+         <property name="maximum">
+          <number>15</number>
+         </property>
+         <property name="value">
+          <number>1</number>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="YxLabel_2">
+         <property name="text">
+          <string>Yx</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>SceneWidget</class>
+   <extends>QWidget</extends>
+   <header>scenewidget.h</header>
+   <container>1</container>
+   <slots>
+    <signal>MinLength(int)</signal>
+    <signal>MinHeight(int)</signal>
+    <signal>MaxHeight(int)</signal>
+    <signal>MinR1(int)</signal>
+    <signal>MinR2(int)</signal>
+    <signal>MinR3(int)</signal>
+    <signal>MaxD(int)</signal>
+    <signal>Max_d(int)</signal>
+    <signal>updateX(int)</signal>
+    <signal>updateY(int)</signal>
+    <slot>showPoints(bool)</slot>
+    <slot>LengthChanged(int)</slot>
+    <slot>HeightChanged(int)</slot>
+    <slot>R1Changed(int)</slot>
+    <slot>R2Changed(int)</slot>
+    <slot>R3Changed(int)</slot>
+    <slot>DChanged(int)</slot>
+    <slot>dChanged(int)</slot>
+    <slot>angleChanged(int)</slot>
+    <slot>gridValueChanged(int)</slot>
+    <slot>XxChanged(int)</slot>
+    <slot>XyChanged(int)</slot>
+    <slot>YxChanged(int)</slot>
+    <slot>YyChanged(int)</slot>
+   </slots>
+  </customwidget>
+  <customwidget>
+   <class>DynamicSpinBox</class>
+   <extends>QSpinBox</extends>
+   <header>dynamicspinbox.h</header>
+   <slots>
+    <slot>SetMaxValue(int)</slot>
+    <slot>SetMinValue(int)</slot>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Rotation</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>groupBox_4</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>570</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>182</x>
+     <y>572</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>AffineTr</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>groupBox_5</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>570</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>331</x>
+     <y>572</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ShowPointsCheckBox</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>scene</receiver>
+   <slot>showPoints(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>462</x>
+     <y>577</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>LEdit</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>scene</receiver>
+   <slot>LengthChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>80</x>
+     <y>552</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>scene</sender>
+   <signal>MinLength(int)</signal>
+   <receiver>LEdit</receiver>
+   <slot>SetMinValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>80</x>
+     <y>552</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>HEdit</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>scene</receiver>
+   <slot>HeightChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>80</x>
+     <y>578</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>scene</sender>
+   <signal>MinHeight(int)</signal>
+   <receiver>HEdit</receiver>
+   <slot>SetMinValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>80</x>
+     <y>578</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>scene</sender>
+   <signal>MaxHeight(int)</signal>
+   <receiver>HEdit</receiver>
+   <slot>SetMaxValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>80</x>
+     <y>578</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>R1Edit</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>scene</receiver>
+   <slot>R1Changed(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>173</x>
+     <y>552</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>scene</sender>
+   <signal>MinR1(int)</signal>
+   <receiver>R1Edit</receiver>
+   <slot>SetMinValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>173</x>
+     <y>552</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>scene</sender>
+   <signal>MinR2(int)</signal>
+   <receiver>R2Edit</receiver>
+   <slot>SetMinValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>173</x>
+     <y>578</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>scene</sender>
+   <signal>MinR3(int)</signal>
+   <receiver>R3Edit</receiver>
+   <slot>SetMinValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>263</x>
+     <y>552</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>R2Edit</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>scene</receiver>
+   <slot>R2Changed(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>173</x>
+     <y>578</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>R3Edit</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>scene</receiver>
+   <slot>R3Changed(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>263</x>
+     <y>552</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>DEdit</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>scene</receiver>
+   <slot>DChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>552</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dEdit</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>scene</receiver>
+   <slot>dChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>578</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>scene</sender>
+   <signal>MaxD(int)</signal>
+   <receiver>DEdit</receiver>
+   <slot>SetMaxValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>345</x>
+     <y>552</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>scene</sender>
+   <signal>Max_d(int)</signal>
+   <receiver>dEdit</receiver>
+   <slot>SetMaxValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>345</x>
+     <y>578</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>AngleEdit</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>scene</receiver>
+   <slot>angleChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>196</x>
+     <y>604</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>scene</sender>
+   <signal>updateX(int)</signal>
+   <receiver>CenterXEdit</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>196</x>
+     <y>552</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>scene</sender>
+   <signal>updateY(int)</signal>
+   <receiver>CenterYEdit</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>196</x>
+     <y>578</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>GridStepEdit</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>scene</receiver>
+   <slot>gridValueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>493</x>
+     <y>562</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>XxEdit</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>scene</receiver>
+   <slot>XxChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>295</x>
+     <y>562</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>XyEdit</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>scene</receiver>
+   <slot>XyChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>295</x>
+     <y>588</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>YxEdit</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>scene</receiver>
+   <slot>YxChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>385</x>
+     <y>562</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>YyEdit</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>scene</receiver>
+   <slot>YyChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>385</x>
+     <y>588</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

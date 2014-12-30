@@ -1,0 +1,16 @@
+C:\Documents and Settings\Roland\Мои документы\Visual Studio 2008\Projects\gr1\gr1\bin\Debug\gr1.exe
+C:\Documents and Settings\Roland\Мои документы\Visual Studio 2008\Projects\gr1\gr1\bin\Debug\gr1.pdb
+C:\Documents and Settings\Roland\Мои документы\Visual Studio 2008\Projects\gr1\gr1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Roland\Мои документы\Visual Studio 2008\Projects\gr1\gr1\obj\Debug\gr1.Form1.resources
+C:\Documents and Settings\Roland\Мои документы\Visual Studio 2008\Projects\gr1\gr1\obj\Debug\gr1.Properties.Resources.resources
+C:\Documents and Settings\Roland\Мои документы\Visual Studio 2008\Projects\gr1\gr1\obj\Debug\gr1.csproj.GenerateResource.Cache
+C:\Documents and Settings\Roland\Мои документы\Visual Studio 2008\Projects\gr1\gr1\obj\Debug\gr1.exe
+C:\Documents and Settings\Roland\Мои документы\Visual Studio 2008\Projects\gr1\gr1\obj\Debug\gr1.pdb
+C:\Users\Евгений\Desktop\gr1\gr1\obj\Debug\gr1.exe
+C:\Users\Евгений\Desktop\gr1\gr1\obj\Debug\gr1.pdb
+C:\Users\Евгений\Desktop\gr1\gr1\bin\Debug\gr1.exe
+C:\Users\Евгений\Desktop\gr1\gr1\bin\Debug\gr1.pdb
+C:\Users\Евгений\Desktop\gr1\gr1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Евгений\Desktop\gr1\gr1\obj\Debug\gr1.Form1.resources
+C:\Users\Евгений\Desktop\gr1\gr1\obj\Debug\gr1.Properties.Resources.resources
+C:\Users\Евгений\Desktop\gr1\gr1\obj\Debug\gr1.csproj.GenerateResource.Cache

@@ -1,0 +1,12 @@
+INPUT(
+./debug\main.o
+./debug\widget.o
+./debug\glwidget.o
+./debug\primitives.o
+./debug\dialog.o
+./debug\point.o
+./debug\bezier.o
+./debug\moc_widget.o
+./debug\moc_glwidget.o
+./debug\moc_dialog.o
+);
